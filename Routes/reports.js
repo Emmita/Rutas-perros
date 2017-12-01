@@ -1,4 +1,4 @@
-var Report = require('../models/report');
+var Report = require('./../Models/report');
 var express = require('express');
 var mongoose = require('mongoose');
 var fs = require('fs');
