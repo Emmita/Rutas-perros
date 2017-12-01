@@ -2,7 +2,7 @@ var Report = require('../models/report');
 var express = require('express');
 var mongoose = require('mongoose');
 var fs = require('fs');
-mongoose.connect('mongodb://AnderP:12341234@ds117336.mlab.com:17336/cines_scraper');
+mongoose.connect('mongodb://AnderP:12341234@ds117336.mlab.com:17336/cines_scraper', {useMongoClient: true });
 
 var router = express.Router();
 
