@@ -7,7 +7,7 @@ var app = express();
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded());
-app.use('/api', reports);
+app.use('/apu', reports);
 
 var port  = process.env.PORT || 3000;
 
